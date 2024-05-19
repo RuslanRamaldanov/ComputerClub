@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ComputerClub" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ComputerClub" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ComputerClub" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Client.h" />
+		<Unit filename="include/Command.h" />
+		<Unit filename="include/ComputerClub.h" />
+		<Unit filename="include/Event.h" />
+		<Unit filename="include/GeneratedEvent.h" />
+		<Unit filename="include/Handler.h" />
+		<Unit filename="include/Table.h" />
+		<Unit filename="include/Time.h" />
+		<Unit filename="src/Client.cpp" />
+		<Unit filename="src/Command.cpp" />
+		<Unit filename="src/ComputerClub.cpp" />
+		<Unit filename="src/GeneratedEvent.cpp" />
+		<Unit filename="src/Handler.cpp" />
+		<Unit filename="src/Table.cpp" />
+		<Unit filename="src/Time.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

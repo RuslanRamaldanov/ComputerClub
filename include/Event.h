@@ -1,0 +1,17 @@
+#ifndef EVENTS_H
+#define EVENTS_H
+/*
+	Перечисление всех событий
+*/
+enum class Event
+{
+	CLIENT_ARRIVE = 1,
+	CLIENT_TOOK_TABLE = 2,
+	CLIENT_WAITING = 3,
+	CLIENT_LEAVE = 4,
+	GENERATED_CLIENT_LEAVE = 11,
+	GENERATED_CLIENT_TOOK_TABLE = 12,
+	GENERATED_ERROR = 13
+};
+
+#endif
